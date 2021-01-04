@@ -4,10 +4,14 @@ sudo: required
 services:
   - docker
 
+arch:
+  - amd64
+    ppc64le
+
 language: go
 
 go:
-  - "1.12.x"
+  - "1.15.x"
 
 go_import_path: github.com/docker/distribution
 
