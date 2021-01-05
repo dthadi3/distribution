@@ -18,7 +18,7 @@ go_import_path: github.com/docker/distribution
 addons:
   apt:
     packages:
-      - python-minimal
+      - python3-minimal
 
 
 env:
